@@ -3,6 +3,7 @@ body {
 	color: #DB8018;
 	background-color: #5e5d5d;
 	font-family: 'Kaushan Script', cursive;
+	box-sizing: border-box;
 }
 
 /** HEADER **/
@@ -58,24 +59,27 @@ body {
 	margin-bottom: 20px;
 }
 
-/* CHICKEN TILE */
-.chicken-tile {
+/* MENU TILES */
+.menu-option {
 	border: 2px solid #c42b8e;
 	overflow: hidden;
-	height: 800px;
-	margin: 15px auto 15px;
+	height: 700px;
 	background-color: #000;
+	margin-bottom: 30px;
 }
 
-.chicken-tile h3 {
-	text-align: center;
+.menu-option h3 {
 	font-weight: bold;
 }
 
-.chicken-tile p {
+.menu-option p {
 	padding: 20px;
 }
-/* END CHICKEN TILE */
+
+.back-to-top, .back-to-top:hover {
+	color: #c42b8e;
+}
+/* END MENU TILES */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
