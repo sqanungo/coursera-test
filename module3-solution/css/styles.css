@@ -1,0 +1,106 @@
+body {
+	font-size: 16px;
+	color: #DB8018;
+	background-color: #5e5d5d;
+	font-family: 'Kaushan Script', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+	height: 80px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Merriweather', serif;
+    color: #c42b8e;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: #5e5d5d;
+	font-size: 1.2em;
+}
+
+#nav-list a:hover {
+	color: #ffffff;
+	text-align: center;
+	background-color: #c42b8e; 
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #c42b8e;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -60px;
+}
+/* END HEADER */
+
+#menu-title {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* CHICKEN TILE */
+.chicken-tile {
+	border: 2px solid #c42b8e;
+	overflow: hidden;
+	height: 800px;
+	margin: 15px auto 15px;
+	background-color: #000;
+}
+
+.chicken-tile h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.chicken-tile p {
+	padding: 20px;
+}
+/* END CHICKEN TILE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 6vw; 
+  }
+  /* End Header */
